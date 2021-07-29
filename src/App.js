@@ -6,10 +6,10 @@ function App() {
 	<CatalystChat
 			room="Test Room"
 			appId="YOUR_CATALYST_PROJECT_ID"
-			theme={{
-				primary: "#50c878",
-				primaryDark: "#50c878",
-      }}
+	// 		theme={{
+	// 			primary: "#50c878",
+	// 			primaryDark: "#50c878",
+    //   }}
 		/>
 	);
 }

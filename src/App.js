@@ -8,7 +8,7 @@ function App() {
 				room="catalyst-demo"
 				appId={process.env.REACT_APP_APP_ID}
 				onLeaveCall={() => {
-					window.open("https://catalyst.chat/");
+					window.location.href = "https://catalyst.chat/";
 				}}
 			// 		theme={{
 			// 			primary: "#50c878",
